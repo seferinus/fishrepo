@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['bash', './myscript.sh']
+  env:
+  - 'BUILD=$BUILD_ID'
+  - 'PROJECT=$PROJECT_ID'
+  - 'REV=$REVISION_ID'
