@@ -1,4 +1,8 @@
 #!/bin/bash
 
-echo jej
+echo branch
 echo $BRANCH
+echo owner
+echo $OWNER
+echo base
+echo $BASE
