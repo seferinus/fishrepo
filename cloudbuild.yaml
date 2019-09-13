@@ -6,3 +6,4 @@ steps:
   - 'PROJECT=$PROJECT_ID'
   - 'REV=$REVISION_ID'
   - 'BRANCH=$BRANCH_NAME'
+  - 'OWNER=$REPO_OWNER'
