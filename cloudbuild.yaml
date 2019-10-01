@@ -1,0 +1,5 @@
+steps:
+- name: 'ubuntu'
+  args: ['bash', './myscript.sh']
+  env:
+  - 'OWNER=$REPO_OWNER'
