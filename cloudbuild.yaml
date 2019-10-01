@@ -2,9 +2,4 @@ steps:
 - name: 'ubuntu'
   args: ['bash', './myscript.sh']
   env:
-  - 'BUILD=$BUILD_ID'
-  - 'PROJECT=$PROJECT_ID'
-  - 'REV=$REVISION_ID'
-  - 'BASE=$$BASE_BRANCH'
-  - 'OWNER=$$REPO_OWNER'
-  - 'BRANCH=$$HEAD_BRANCH'
+  - 'OWNER=$REPO_OWNER'
